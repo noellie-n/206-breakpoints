@@ -1,14 +1,21 @@
 
-/* ----------- Tablets larger than 768px wide ----------- */
-@media (min-width: 768px) and (max-width: 1199px) {
+/* ----------- Mobile (larger than 360px wide) ----------- */
+@media (min-width: 360px) and (max-width: 767px) {
 	body {
-    background: red;
+    background: orange;
   }
 }
 
-/* ----------- Monitors larger than 1200px wide ----------- */
-@media (min-width:1200px) {
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width:768px) and (max-width: 1199px) {
   body{
-    background: teal;
+    background: yellow;
   }
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+  body{
+    background:blue;
+  }
+
 }
